@@ -2,7 +2,7 @@ import { Telegraf, Scenes, session } from "telegraf"
 import { message } from "telegraf/filters"
 
 // Environment variables would be set up in a real deployment
-const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "YOUR_BOT_TOKEN"
+const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "7696751304:AAFj4cdNtZ4FNlmEqNekp7d4eHz9rPi3wyo"
 
 const bot = new Telegraf(BOT_TOKEN)
 
