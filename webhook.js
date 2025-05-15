@@ -4,7 +4,7 @@ import { calculateLotSize } from "../utils/calculator"
 
 // Initialize bot with webhook
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN
-const VERCEL_URL = process.env.VERCEL_URL || "https://optimal-lot-size-bot.vercel.app
+const VERCEL_URL = process.env.VERCEL_URL || "https://optimal-lot-size-bot.vercel.app"
 
 const bot = new Telegraf(BOT_TOKEN)
 
